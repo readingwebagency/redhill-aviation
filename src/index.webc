@@ -3,33 +3,60 @@ title: Star Wars Characters
 layout: layouts/landingPageBase.njk
 ---
 
-<div class="h-96 bg-[url(/img/dummy-image.png)]">
-  <h1>
-    Carricks
-  </h1>
+<hero h1="Learn to be a flight Instructor (FIC)" image="/img/hero.webp" image2="/img/hero-2.webp">
+  Want to be paid for your GA flying? The Flight Instructor FI(R) rating allows you to instruct
+  students training for a PPL. Once obtained it opens the door to further flight instructor
+  ratings allowing you to teach beyond the PPL for courses such as CPL/MEP and IR to list a few.
+</hero>
+
+<div class="bg-slate-800 text-white">
+  <div class="lg:w-3/5 mx-auto flex flex-col gap-5 p-5">
+    <h2 class="text-4xl">Training starts from £7,980.00</h2>
+    <p>
+      We charge based on only the flying hours.
+    </p>
+    <p>The ground instruction and briefing required is
+      included in this rate, so you do not need to pay for ground school additionally.</p>
+  </div>
 </div>
 
-<div class="mt-10 px-10">
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-    <div>
-      <img class="md:w-full" src="/img/dummy-image.png" alt="">
-      <p>PRODUCT 1</p>
-    </div>
-    <div>
-      <img class="md:w-full" src="/img/dummy-image.png" alt="">
-      <p>PRODUCT 2</p>
-    </div>
-    <div>
-      <img class="md:w-full" src="/img/dummy-image.png" alt="">
-      <p>PRODUCT 3</p>
-    </div>
-    <div class="lg:col-span-2">
-      <img class="md:w-full lg:h-96 lg:object-cover" src="/img/dummy-image-1200x400.png" alt="">
-      <p>PRODUCT 4</p>
-    </div>
-    <div>
-      <img class="md:w-full lg:h-96 lg:object-cover" src="/img/dummy-image.png" alt="">
-      <p>PRODUCT 5</p>
-    </div>
+<div class="lg:w-3/5 mx-auto bg-gray-100 p-5 mt-10">
+  <div class="flex flex-col gap-5">
+    <h2 class="text-4xl">Course Aim</h2>
+  
+    <p>
+      The FI course is designed to train a pilot to be an instructor capable of teaching a
+      person to qualify for issue of a Private Pilot’s Licence. Different to other courses,
+      you will already know how to fly the aircraft, the FIC is about giving you the tools to
+      train aspiring pilots how to fly.
+    </p>
   </div>
+  
+  <div class="mt-10 flex flex-col gap-5">
+    <h2 class="text-4xl">Pre-entry Requirements</h2>
+    <ul class="list-disc list-inside">
+      <li>Part-FCL 915 FI and 930 FI state pre-entry requirements to commence an approved course of training for the issue
+        of an Part-FCL Flight Instructor (FI) rating.</li>
+      <li>Applicants need to hold a valid UK or Part-FCL aeroplane pilot’s licence which includes a valid single engine
+        piston (land) class or single engine type or TMG rating.</li>
+      <li>Prior to commencing the flight instructors course, students must complete a pre-entry flight test with an FIE or
+        FIC. The flight test will be based on the PPL Skill Test and will assess the ability of the applicant to undertake
+        the course.</li>
+    </ul>
+  </div>
+  
+  <div class="mt-10 flex flex-col gap-5">
+    <h2 class="text-4xl">Course Content</h2>
+    <ul class="list-disc list-inside">
+      <li>125 hours ground instruction.</li>
+      <li>30 hours (minimum) flight instruction comprising not less than 25 hours dual and a maximum of 5 hours teaching
+        practice with another FIC student. </li>
+    </ul>
+    <p>Thanks to the flexibilty of our two FIC instructors & FI Examiners course times and frequencies can be arranged to
+      suit your needs.</p>
+  </div>
+</div>
+
+<div id="contact" class="flex justify-center mt-10 bg-slate-800 p-5 lg:py-10">
+  <enquiry-form></enquiry-form>
 </div>
