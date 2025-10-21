@@ -1,0 +1,35 @@
+---
+title: Star Wars Characters
+layout: layouts/landingPageBase.njk
+---
+
+<div class="h-96 bg-[url(/img/dummy-image.png)]">
+  <h1>
+    Carricks
+  </h1>
+</div>
+
+<div class="mt-10 px-10">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    <div>
+      <img class="md:w-full" src="/img/dummy-image.png" alt="">
+      <p>PRODUCT 1</p>
+    </div>
+    <div>
+      <img class="md:w-full" src="/img/dummy-image.png" alt="">
+      <p>PRODUCT 2</p>
+    </div>
+    <div>
+      <img class="md:w-full" src="/img/dummy-image.png" alt="">
+      <p>PRODUCT 3</p>
+    </div>
+    <div class="lg:col-span-2">
+      <img class="md:w-full lg:h-96 lg:object-cover" src="/img/dummy-image-1200x400.png" alt="">
+      <p>PRODUCT 4</p>
+    </div>
+    <div>
+      <img class="md:w-full lg:h-96 lg:object-cover" src="/img/dummy-image.png" alt="">
+      <p>PRODUCT 5</p>
+    </div>
+  </div>
+</div>

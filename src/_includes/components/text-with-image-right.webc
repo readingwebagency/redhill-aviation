@@ -1,0 +1,17 @@
+<div class="flex justify-center items-center gap-10 flex-wrap">
+    <div class="w-4/5 lg:w-1/3 flex flex-col gap-5">
+        <p @text="subtitle"> Quick, professional service with premium materials </p>
+        <h3 @text="h3" id="serviceTitle" class="text-5xl font-bold">
+            Transform your windows in 4 days
+        </h3>
+        <p>
+            <slot>
+                GB Smart Spray can transform your windows in 4 days or less.
+                We’ve streamlined our process with specialist prep, rapid-curing coatings,
+                and efficient on-site systems — so you get maximum impact with minimal disruption.
+            </slot>
+        </p>
+        <cta></cta>
+    </div>
+    <img :src="image" alt="" class="w-4/5 aspect-image lg:w-1/3">
+</div>

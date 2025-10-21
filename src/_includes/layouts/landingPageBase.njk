@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-spray your UPVC Windows</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+ {{ content | safe }}
+ <script>
+const urlParams = new URLSearchParams(window.location.search);
+const service = urlParams.get('service');
+
+if (service) {
+    const formattedService = service.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    document.getElementById('serviceTitle').textContent = formattedService;
+}
+</script>
+</body>
+</html>
